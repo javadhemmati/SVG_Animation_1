@@ -1,0 +1,50 @@
+#logo
+    position: absolute
+    width: 50%
+    left: 50%
+    top: 50%
+    transform: translate(-50%, -50%)
+    
+    .cls-1
+        stroke-dasharray: 652px
+        stroke-dashoffset: 652px
+        animation: line-anim 2s ease forwards ,fill-anim 0.4s ease forwards 3.5s
+
+    .cls-2
+        stroke-dasharray: 579px
+        stroke-dashoffset: 579px
+        animation: line-anim 2s ease forwards 0.3s ,fill-anim 0.4s ease forwards 3.5s
+
+    .cls-3
+        stroke-dasharray: 1034px
+        stroke-dashoffset: 1034px
+        animation: line-anim 2s ease forwards 0.6s ,fill-anim 0.4s ease forwards 3.5s
+
+    .cls-4
+        stroke-dasharray: 1034px
+        stroke-dashoffset: 1034px
+        animation: line-anim 2s ease forwards 0.9s ,fill-anim 0.4s ease forwards 3.5s
+
+    .cls-5
+        stroke-dasharray: 627px
+        stroke-dashoffset: 627px
+        animation: line-anim 2s ease forwards 1.2s ,fill-anim 0.4s ease forwards 3.5s
+
+    .cls-6
+        stroke-dasharray: 432px
+        stroke-dashoffset: 432px
+        animation: line-anim 2s ease forwards 1.5s ,fill-anim 0.4s ease forwards 3.5s
+       
+    .cls-7
+        stroke-dasharray: 273px
+        stroke-dashoffset: 273px
+        animation: line-anim 2s ease forwards 1.8s ,fill-anim 0.4s ease forwards 3.5s
+
+
+    @keyframes line-anim
+        to
+            stroke-dashoffset: 0
+
+    @keyframes fill-anim
+        to
+            fill: white
